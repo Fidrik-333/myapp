@@ -1,25 +1,21 @@
-.navbar {
-  background-color: #282c34;
-  color: white;
+form {
+  width: 300px;
+  margin: 30px auto;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
-.navbar ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 90%;
 }
 
-.navbar li {
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
   cursor: pointer;
-}
-
-.content {
-  text-align: center;
-  margin-top: 50px;
 }

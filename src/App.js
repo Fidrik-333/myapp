@@ -3,20 +3,31 @@ import './App.css';
 function App() {
   return (
     <div>
-      <nav className="navbar">
-        <h2>My React App</h2>
+      <h1>Welcome to My React App</h1>
 
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <form>
+        <h2>Contact Form</h2>
 
-      <div className="content">
-        <h1>Welcome to My React App</h1>
-        <p>This project demonstrates GitHub branching.</p>
-      </div>
+        <label>Name:</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+        />
+
+        <br />
+        <br />
+
+        <label>Email:</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+        />
+
+        <br />
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 }
